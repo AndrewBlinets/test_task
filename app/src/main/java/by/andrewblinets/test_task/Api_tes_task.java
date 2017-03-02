@@ -14,7 +14,4 @@ public interface Api_tes_task {
     @GET
     Call<ResponseBody> getJsonString(@Url String url);
 
-   /* @GET
-    Call<ResponseBody> getImageFile(@Url String url);*/
-
 }
