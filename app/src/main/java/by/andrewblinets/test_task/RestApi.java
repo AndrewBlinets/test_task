@@ -18,20 +18,20 @@ public class RestApi {
                 .addConverterFactory(GsonConverterFactory.create( )).build();
     }
 
-    private static Retrofit getRetrofitInstanceImage(String URL)
+   /* private static Retrofit getRetrofitInstanceImage(String URL)
     {
         return new Retrofit.Builder().baseUrl(URL)
                 .addConverterFactory(GsonConverterFactory.create( )).build();
-    }
+    }*/
 
     public static Api_tes_task getApi() {
         return  getRetrofitInstance().create(Api_tes_task.class);
     }
 
 
-    public static Api_tes_task getImageApi(String URL) {
+    /*public static Api_tes_task getImageApi(String URL) {
 
         return getRetrofitInstanceImage(URL).create(Api_tes_task.class);
-    }
+    }*/
 
 }

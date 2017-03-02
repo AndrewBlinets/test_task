@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- main_activity -->
+            <!-- main_activity -->
 
     <dimen name="marginLeft_button_new">54dp</dimen>
     <dimen name="marginBottom_button_new">33dp</dimen>
     <dimen name="marginRight_button_top">54dp</dimen>
     <dimen name="marginEnd_button_top">52dp</dimen>
+
+            <!-- Image -->
+    <dimen name="marginLeftforsecondImage">-20dp</dimen>
+    <dimen name="marginImage">5dp</dimen>
+    <dimen name="marginlinerlayout">0dp</dimen>
+    <dimen name="heightImagerightandleft">300dp</dimen>
+    <dimen name="heightImageone">600dp</dimen>
 
 
 </resources>
