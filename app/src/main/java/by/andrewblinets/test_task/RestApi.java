@@ -9,6 +9,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RestApi {
 
+    public RestApi() {
+    }
+
     private static Retrofit getRetrofitInstance()
     {
         return new Retrofit.Builder().baseUrl(Constans.HOST)
