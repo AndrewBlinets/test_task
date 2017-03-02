@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Test_task</string>
+
+    <!-- String main_activity -->
+
+    <string name="new_button">NEW</string>
+    <string name="top_button">Top</string>
+
 </resources>
